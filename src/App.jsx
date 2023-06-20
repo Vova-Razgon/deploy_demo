@@ -6,14 +6,13 @@ function Dates() {
 function App() {
   const timeNow = new Date().toLocaleTimeString();
   const vovaStyle = {
-    backgroundColor: 'black',
     color: 'red'
   }
 
   return <main>
     <header>
       <h1>
-        vova's website
+        vova's hosted website
       </h1>
     </header>
     <section>
